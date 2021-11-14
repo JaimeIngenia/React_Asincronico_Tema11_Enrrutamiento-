@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  height: 100vh;
+}
+
+nav {
+  background-color: rgb(91, 51, 236);
+  height: 65px;
+  padding: 10px;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  padding: 15px;
+}
+
+ul > li {
+  /* border: 1px solid black; */
+  padding: 10px;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  padding: 15px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.2s all;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  /* font-size: 19px; */
+}
+
+.cursos {
+  padding: 15px;
+}
+
+.curso-description {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.back-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: gray;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.curso-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.cursos-lista li {
+  font-size: 25px;
+  margin-top: 20px;
+  border-bottom: 3px solid lightgray;
+}
+
+.curso li {
+  font-size: 20px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  padding: 30px;
+  user-select: none;
+}
